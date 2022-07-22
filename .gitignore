@@ -18,5 +18,6 @@
 *.PNG
 *.JPEG
 *.txt
+*.exe
 .idea
 !readme.txt
