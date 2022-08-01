@@ -194,6 +194,7 @@ class GPRScrapper:
 
     def run(self, app_links: []):
         for app_link in app_links:
+            print("-- Start to scrapping reviews from: %s --" % app_link)
             self.reviews += self.__get_reviews_from_app(app_link)
 
         self.__sleep(*self.time_options["delay_before_close"])
