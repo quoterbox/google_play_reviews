@@ -1,5 +1,9 @@
 # Get Google Play reviews with Selenium
 
+
+https://user-images.githubusercontent.com/8583337/182228190-779d7df9-654a-4558-87a4-542a8bfc522b.mp4
+
+
 ## Description
 
 1. This is a simple Python class to get reviews from Google Play Apps without any API.
