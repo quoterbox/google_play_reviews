@@ -5,7 +5,7 @@ The video below shows how review extractor works:
 https://user-images.githubusercontent.com/8583337/182228190-779d7df9-654a-4558-87a4-542a8bfc522b.mp4
 
 
-## Description
+## Description of the crawler
 
 1. This is a simple Python class to get reviews from Google Play for any Apps without any API.
 2. GPRScrapper makes use Selenium library for Python and chromedriver as well(or any other for your web browser).
@@ -16,12 +16,12 @@ https://user-images.githubusercontent.com/8583337/182228190-779d7df9-654a-4558-8
 
 ### How to start python script in shell
 
-1. Install python 3.7+ https://www.python.org/downloads/windows/ 
+1. Install python 3.7+ https://www.python.org/downloads/windows/ (or version for you OS)
 2. Install pipenv `pip install --user pipenv`. Docs are here: https://github.com/pypa/pipenv
 3. To install all packages run this command: `pipenv install`
 4. To start python script: `pipenv run py main.py` (for windows)
 5. Download Chromedriver for yor own Google Chrome version (or your own, Gecko driver for Firefox etc.), from this page:
-https://chromedriver.chromium.org
+https://chromedriver.chromium.org and put it next to the `main.py` file.
 
 ## How it works:
 
@@ -72,8 +72,11 @@ https://chromedriver.chromium.org
             }
         })
 
-###  Put your own links into run method
+###  Put your own links to the run method:
     google_play_review_scrapper.run([
         "https://play.google.com/store/apps/details?hl=en&id=org.app",
         "https://play.google.com/store/apps/details?hl=en&id=com.some.app",
     ])
+
+### After executing of `google_play_review_scrapper.run()` 
+You can extract reviews from the object with `gprscrapper.get_reviews()` and save them to a file.
