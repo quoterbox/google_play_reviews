@@ -1,4 +1,4 @@
-# Get Google Play reviews with Selenium
+# Get reviews from Google Play for any Apps with Selenium
 
 
 https://user-images.githubusercontent.com/8583337/182228190-779d7df9-654a-4558-87a4-542a8bfc522b.mp4
@@ -6,7 +6,7 @@ https://user-images.githubusercontent.com/8583337/182228190-779d7df9-654a-4558-8
 
 ## Description
 
-1. This is a simple Python class to get reviews from Google Play Apps without any API.
+1. This is a simple Python class to get reviews from Google Play for any Apps without any API.
 2. GPRScrapper makes use Selenium library for Python and chromedriver as well(or any other for your web browser).
 3. GPRScrapper allows you to receive data in the desired language.
 4. It's easy to use in any browser with XPATH copy and paste.
@@ -22,7 +22,7 @@ https://user-images.githubusercontent.com/8583337/182228190-779d7df9-654a-4558-8
 5. Download Chromedriver for yor own Google Chrome version (or your own, Gecko driver for Firefox etc.), from this page:
 https://chromedriver.chromium.org
 
-## How does it work:
+## How it works:
 
 1. Copy and past you app link from Google Play like an arg with list type in `gprscrapper.run(["YOUR_OWN_APP_LINK", "YOUR_OWN_APP_LINK"])` method.
 2. Copy and past XPATH from browser(**Right-click on a page element -> Copy -> Copy full Xpath**).
