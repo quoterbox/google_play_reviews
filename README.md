@@ -1,5 +1,6 @@
 # Get reviews from Google Play for any Apps with Selenium
 
+The video below shows how review extractor works:
 
 https://user-images.githubusercontent.com/8583337/182228190-779d7df9-654a-4558-87a4-542a8bfc522b.mp4
 
