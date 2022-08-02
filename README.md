@@ -32,6 +32,9 @@ https://chromedriver.chromium.org and put it next to the `main.py` file.
 
 ### Example to set up GPRScrapper object:
 
+You can use the browser window or not with this option for Selenium driver:
+`chrome_options.headless = True`
+
     google_play_review_scrapper = GPRScrapper(
         # selenium driver
         driver,

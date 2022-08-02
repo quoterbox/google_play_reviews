@@ -2,8 +2,18 @@ import csv
 from selenium import webdriver
 from scrapper.gpr_scrapper import GPRScrapper
 
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.71")
+chrome_options.add_argument('--disable-gpu')
+chrome_options.add_argument('--window-size=1920,1080')
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument('--start-maximized')
+chrome_options.add_argument('--disable-setuid-sandbox')
 
-driver = webdriver.Chrome()
+# Yes / No browser visualization
+chrome_options.headless = True
+
+driver = webdriver.Chrome(options=chrome_options)
 
 google_play_review_scrapper = GPRScrapper(
     driver,
