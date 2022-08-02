@@ -95,4 +95,4 @@ with open(output_file["name"], "a", encoding='utf-8', newline='') as file:
     for review in google_play_review_scrapper.get_reviews():
         writer.writerow(review)
 
-print("Reviews has been successfully saved to file!")
+print("Reviews has been successfully saved to the file!")

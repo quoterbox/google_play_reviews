@@ -160,7 +160,7 @@ class GPRScrapper:
                 print("%s: %s" % (field_name, field.text))
             return field
         except NoSuchElementException:
-            print("%s for review num - %d - has not been found!" % (field_name, review_num))
+            print("%s for the review num - %d - has not been found!" % (field_name, review_num))
             pass
 
     def __open_modal_window(self, review_link: WebElement):
