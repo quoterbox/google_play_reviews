@@ -124,7 +124,7 @@ class GPRScrapper:
             review['app_link'] = app_link
             reviews.append(review)
 
-            if self.count_reviews <= review_num:
+            if self.count_reviews != 0 and self.count_reviews <= review_num:
                 break
 
             review_num = review_num + 1
@@ -132,6 +132,7 @@ class GPRScrapper:
         return reviews
 
     def __get_review_from_app(self, review_num: int) -> {}:
+        print("Review num - %d" % review_num)
 
         review = {}
 

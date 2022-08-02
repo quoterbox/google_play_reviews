@@ -9,7 +9,7 @@ google_play_review_scrapper = GPRScrapper(
     driver,
     {
         # 0 - maximum
-        "count_reviews": 100,
+        "count_reviews": 10,
         # en/ru
         "language": "en",
         # you should copy these xpaths from your browser (right click and select "Inspect element")
