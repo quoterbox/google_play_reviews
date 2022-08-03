@@ -8,7 +8,7 @@ https://user-images.githubusercontent.com/8583337/182228190-779d7df9-654a-4558-8
 ## Description of the crawler
 
 1. This is a simple Python class to get reviews from Google Play for any Apps without any API.
-2. GPRScrapper makes use Selenium library for Python and chromedriver as well(or any other for your web browser).
+2. GPRScrapper uses Selenium library for Python and chromedriver as well (or any other for your web browser).
 3. GPRScrapper allows you to receive data in the desired language.
 4. It's easy to use in any browser with XPATH copy and paste.
 
@@ -26,13 +26,13 @@ https://chromedriver.chromium.org and put it next to the `main.py` file.
 ## How it works:
 
 1. Copy and past you app link from Google Play like an arg with list type in `gprscrapper.run(["YOUR_OWN_APP_LINK", "YOUR_OWN_APP_LINK"])` method.
-2. Copy and past XPATH from browser(**Right-click on a page element -> Copy -> Copy full Xpath**).
-3. When script has been finished you can extract reviews from instance of GPRScrapper object with method `gprscrapper.get_reviews()` 
+2. Copy and past XPATH from browser (**Right-click on a page element -> Copy -> Copy full Xpath**).
+3. When script is finished, you can extract reviews from instance of GPRScrapper object with method `gprscrapper.get_reviews()` 
 4. For example, you can save reviews into CSV file. 
 
 ### Example to set up GPRScrapper object:
 
-You can use the browser window or not with this option for Selenium driver:
+You can use either the browser window or not with this option for Selenium driver:
 `chrome_options.headless = True`
 
     google_play_review_scrapper = GPRScrapper(
