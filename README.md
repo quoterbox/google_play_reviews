@@ -25,8 +25,8 @@ https://chromedriver.chromium.org and put it next to the `main.py` file.
 
 ## How it works:
 
-1. Copy and past you app link from Google Play like an arg with list type in `gprscrapper.run(["YOUR_OWN_APP_LINK", "YOUR_OWN_APP_LINK"])` method.
-2. Copy and past XPATH from browser (**Right-click on a page element -> Copy -> Copy full Xpath**).
+1. Copy and paste you app link from Google Play like an arg with list type in `gprscrapper.run(["YOUR_OWN_APP_LINK", "YOUR_OWN_APP_LINK"])` method.
+2. Copy and paste XPATH from browser (**Right-click on a page element -> Copy -> Copy full Xpath**).
 3. When script is finished, you can extract reviews from instance of GPRScrapper object with method `gprscrapper.get_reviews()` 
 4. For example, you can save reviews into CSV file. 
 
