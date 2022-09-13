@@ -83,3 +83,7 @@ You can use either the browser window or not with this option for Selenium drive
 
 ### After executing of `google_play_review_scrapper.run()` 
 You can extract reviews from the object with `gprscrapper.get_reviews()` and save them to a file.
+
+### License
+
+[MIT License](./LICENSE.md)
