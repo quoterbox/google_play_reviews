@@ -85,5 +85,7 @@ You can use either the browser window or not with this option for Selenium drive
 You can extract reviews from the object with `gprscrapper.get_reviews()` and save them to a file.
 
 ### License
-
 [MIT License](./LICENSE.md)
+
+### Author
+[JQ/Quoterbox](https://github.com/quoterbox)
